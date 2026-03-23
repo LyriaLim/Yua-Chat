@@ -1,0 +1,9 @@
+PyQt6
+ollama
+faster-whisper
+sounddevice
+soundfile
+kokoro-onnx
+misaki[ja]
+pymupdf
+numpy

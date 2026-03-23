@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+echo ""
+echo "  Uninstalling Yua..."
+rm -rf "$HOME/.yua/venv"
+rm -f "$HOME/.yua/yua.py"
+rm -f "$HOME/.yua/run.sh"
+rm -f "$HOME/.yua/icon.png"
+rm -f "$HOME/.local/share/applications/yua.desktop"
+echo "  ✓ Yua uninstalled."
+echo "  (Your conversations and memory in ~/.yua/ were kept.)"
+echo "  To remove everything: rm -rf ~/.yua"
+echo ""
