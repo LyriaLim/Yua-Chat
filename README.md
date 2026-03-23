@@ -2,8 +2,6 @@
 
 A local AI assistant powered by [Ollama](https://ollama.com), built with PyQt6.
 
-![Yua screenshot](https://i.imgur.com/placeholder.png)
-
 ## Features
 
 - 💬 Chat with any locally installed Ollama model
