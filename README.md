@@ -24,8 +24,8 @@ A local AI assistant powered by [Ollama](https://ollama.com), built with PyQt6.
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/yua.git
-cd yua
+git clone https://github.com/LyriaLim/Yua-Chat.git
+cd Yua-Chat
 chmod +x install.sh
 ./install.sh
 ```
@@ -75,7 +75,7 @@ Yua uses Ollama's built-in `web_search` tool. To enable it, set your search API 
 sudo mkdir -p /etc/systemd/system/ollama.service.d
 sudo tee /etc/systemd/system/ollama.service.d/override.conf << EOF
 [Service]
-Environment="OLLAMA_SEARCH_BEARER_TOKEN=your_key_here"
+Environment="OLLAMA_API_KEY=your_key_here"
 EOF
 sudo systemctl daemon-reload && sudo systemctl restart ollama
 ```
